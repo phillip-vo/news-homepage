@@ -1,0 +1,43 @@
+.app {
+    background-color: var(--off-white);
+    font-family: var(--font-base);
+}
+
+.app__container {
+    width: 100%;
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.app__wrapper {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    padding: 4rem 2rem;
+  
+    @media screen and (max-width: 450px) {
+      padding: 4rem 1rem 2rem;
+    }
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__layout {
+    width: 100%;
+
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+        
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
+.p-text {
+    color: var(--dark-grayish-blue);
+}
